@@ -15,8 +15,8 @@ services:
     # You can give the service any name
     name: n8n-service
     image:
-      # Pulls the n8n image tagged as latest from Docker Hub
-      url: n8nio/n8n:latest
+      repo: n8nio/n8n
+      tag: latest
 
     # All environment variables defined below are required!
     #
